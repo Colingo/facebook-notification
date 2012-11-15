@@ -24,7 +24,7 @@ function notify(options) {
         }
 
         function callNotification(user) {
-            Notification(options, user)
+            return Notification(options, user)
         }
 
         function getResult(notification, callback) {
